@@ -6,9 +6,9 @@ using namespace std;
 int main(){
 	double x0 = 0.5;
 	double x;
-	double a[Nend-Nskip];
 	int Nskip = 100; //Number of iterations to skip
 	int Nend  = 200; //Number of total iterations
+	double a[Nend-Nskip];
 	
 	ofstream out("output.dat");
 	
@@ -25,7 +25,7 @@ int main(){
    	   }
 
 	}
-	out.close()
+	out.close();
 
 	return 0;
 }
